@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "lista.h"
+#include "../include/lista.h"
 
 /** Estructura para un nodo de la lista **/
 typedef struct nodoLista {

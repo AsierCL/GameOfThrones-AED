@@ -1,6 +1,8 @@
 #ifndef ABB_H
 #define ABB_H
 
+#include "lista.h"
+
 /**
  * Tipo de dato abstracto para arbol binario con clave de
  * ordenacion y elemento de celda.

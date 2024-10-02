@@ -1,5 +1,4 @@
 #include "../include/abb.h"
-#include "../include/lista.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -35,6 +34,8 @@ int _comparar_claves(TIPOCLAVE cl1, TIPOCLAVE cl2) {
  * permite hacer mas eficiente la destruccion del arbol.*/
 void _destruir_elem(TIPOELEMENTOABB *E) {
     destruirLista(&(E->parents));
+    destruirLista(&(E->siblings));
+    destruirLista(&(E->killed));
     
 }
 

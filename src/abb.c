@@ -19,7 +19,7 @@ struct celda {
 
 /*Extraer la clave de una celda */ //Si la clave es orden alfabético
 TIPOCLAVE _clave_elem(TIPOELEMENTOABB *E) {
-    return E->nombre;
+    return E->name;
 }
 
 /* Esta funcion puente nos permite modificar el tipo de

@@ -7,7 +7,7 @@
 #define MAX 50
 
 typedef struct{
-    char name[MAX];
+    char nameP[MAX];
 } TIPOELEMENTOLISTA;
 
 ///////////////////////////////////////////////////

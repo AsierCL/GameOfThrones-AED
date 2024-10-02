@@ -4,6 +4,7 @@
         "abin.h": "c",
         "pila.h": "c",
         "funcionesexpresion.h": "c",
-        "pilaoperadores.h": "c"
+        "pilaoperadores.h": "c",
+        "abb.h": "c"
     }
 }

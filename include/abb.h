@@ -10,10 +10,15 @@
 
 #define MAX 50
 
-typedef int TIPOCLAVE;
+typedef char* TIPOCLAVE;
 
 typedef struct{
-    char nombre[MAX];
+    char name[MAX];
+    char house[MAX];
+    int royal;
+    TLISTA parents;
+    TLISTA siblings;
+    TLISTA killed;
 } TIPOELEMENTOABB;
 
 //////////////////////////////////////////FIN PARTE MODIFICABLE

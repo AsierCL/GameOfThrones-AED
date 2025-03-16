@@ -1,7 +1,7 @@
 #ifndef ABB_H
 #define ABB_H
 
-#include "lista.h"
+#include "./lista.h"
 
 /**
  * Tipo de dato abstracto para arbol binario con clave de
@@ -105,4 +105,3 @@ void suprimirElementoAbb(TABB *A,TIPOELEMENTOABB E);
 void modificarElementoAbb(TABB A, TIPOELEMENTOABB nodo);
 
 #endif	// ABB_H
-
